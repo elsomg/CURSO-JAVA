@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Calculator {
+public class calculadora {
 
     // Función: código ejecutable 
     // Puedo invocarlo por su nombre

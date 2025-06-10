@@ -1,4 +1,4 @@
-public class Functions {
+public class funciones {
 
     // Función: código ejecutable 
     // Puedo invocarlo por su nombre
