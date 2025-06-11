@@ -19,18 +19,18 @@ del alumno, el sistema informe por pantalla los días y horarios del curso corre
  */
         Scanner scanner1= new Scanner(System.in);
         System.out.println("Introduce tu edad");
-        int edad=scanner1.nextInt();
-        if (edad == 6){
+        int age=scanner1.nextInt();
+        if (age == 6){
             System.out.println("Lunes y Miércoles de 16 a 17");
         }
-            else if(edad <=8){
+            else if(age <=8){
                 System.out.println("Martes y Jueves de 16:30 a 17:30");
             }
-            else if(edad <=10){
+            else if(age <=10){
                     System.out.println("Martes y Jueves de 17:30 a 19");
             
             }
-            else if(edad <=13){
+            else if(age <=13){
                     System.out.println("Lunes y Miércoles de 17 a 18:30");
             
 
