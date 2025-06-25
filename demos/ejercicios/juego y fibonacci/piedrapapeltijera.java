@@ -2,8 +2,6 @@ package demos.ejercicios;
 
 import java.util.Scanner;
 
-import javax.print.DocFlavor.STRING;
-
 public class piedrapapeltijera {
     public static void main(String[] args) {
         byte stone=1;
@@ -18,7 +16,7 @@ public class piedrapapeltijera {
         while( PiPaTi.userdice==0){
             System.out.println(message);
           String answer=scanner.nextLine();
-        })
+        }
        if (
         answer.compareToIgnoreCase("PI") ||
         answer.compareToIgnoreCase("PA") ||
@@ -29,4 +27,4 @@ public class piedrapapeltijera {
 
     }
     }
-}
+
