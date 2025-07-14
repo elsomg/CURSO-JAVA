@@ -2,17 +2,18 @@ package demos.ejercicios.collections;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+import java.util.Set;
 
-public class PhoneMapApp {
-    private Map<String,Employee> PhoneDirectory =new HashMap();
+public class PhoneSet {
+    public Set<?> PhoneDirectory = new Set() {
+    }
+ 
     public void addEntry(Employee employee){
         String key=generateKey(employee);
-        PhoneDirectory.put(key,employee);
+        ((Object) PhoneDirectory).put(key,employee);
     }
-    private String generateKey(Employee employee) {
+    public String generateKey(Employee employee) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'generateKey'");
 
