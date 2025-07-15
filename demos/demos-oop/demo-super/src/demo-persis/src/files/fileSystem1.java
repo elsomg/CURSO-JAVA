@@ -18,6 +18,7 @@ public class fileSystem1 {
         File file = new File(pathName);
         return file.isDirectory() ? "D" : "F";
     }
+   
 
     public static void main(String[] args) {
         String pathName = "demo-persis/resources";
