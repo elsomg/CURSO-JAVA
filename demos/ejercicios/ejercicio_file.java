@@ -33,7 +33,7 @@ public class ejercicio_file {
     } catch (IOException e) {
         // TODO Auto-generated catch block
         e.printStackTrace();
-    }
+    }  sc.close();
     }
     
     
@@ -41,7 +41,7 @@ public class ejercicio_file {
     
 public static void main(String[] args) {
     metod();
-    sc.close();
 }
-    
+      
+
 }
