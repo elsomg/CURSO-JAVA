@@ -1,6 +1,5 @@
 package demosq.connections;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import io.github.cdimascio.dotenv.Dotenv;
@@ -12,7 +11,7 @@ public class EntityManagerProvider {
     private static EntityManagerFactory entityManagerFactory;
 
 static {
-    final String PERSISTENT_UNIT="demosql";
+    final String PERSISTENT_UNIT="demos-ql";
 
     entityManagerFactory= Persistence.createEntityManagerFactory(PERSISTENT_UNIT,getProps());
 
